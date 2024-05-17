@@ -10,7 +10,7 @@ const wasmUrl = new URL(
 );
 const config = {
   from: "jsonconfig",
-  configUrl: "/config.json"
+  configUrl: "/onthisday/config.json"
 }
 
 let maxBytesToRead = 10 * 1024 * 1024;
